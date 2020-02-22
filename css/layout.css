@@ -45,10 +45,12 @@ header {
 
 header #logo {	
 	width:400px;	
-	margin: 0 auto;
+	margin-left: -200px;
 	text-align: center;
-   color:white;
-   margin-top:72px;
+	color:white;
+	position: absolute;
+	top: 72px;
+	left: 50%;
 }
 
 
