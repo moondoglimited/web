@@ -44,13 +44,11 @@ header {
 }
 
 header #logo {	
-	width: 250px;	
-	margin-left: -60px;
+	width:400px;	
+	margin: 0 auto;
 	text-align: center;
-	color:white;
-	position: absolute;
-	top: 72px;
-	left: 50%;
+   color:white;
+   margin-top:72px;
 }
 
 
