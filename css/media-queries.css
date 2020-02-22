@@ -19,8 +19,8 @@
 	------------------------------------------------------------------ */
 	header #logo {	
 		top: 66px;	
-		width: 100px;
-		margin-left: -50px;
+		width: 300px;
+		margin-left: -150px;
 	}
 
    /* main
@@ -98,8 +98,8 @@
 	------------------------------------------------------------------ */
 	header #logo {	
 		top: 30px;	
-		width: 90px;
-		margin-left: -45px;			
+		width: 250px;
+		margin-left: -125px;			
 	}
 
 	/* primary navigation

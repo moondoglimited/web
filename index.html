@@ -47,7 +47,7 @@
 
 			<div id="logo" >
 				<a href="#" >
-                 <img src="images/logo.png" alt="Zoon">                
+                 <img src="images/logo.png" alt="Moondog Limited">                
               </a>					
 			</div>
 
@@ -70,19 +70,35 @@
 
 	   	<div class="twelve columns">
 	   			
-	   		<p>We are currently working on something awesome. Stay tuned!</p>
-
-			   
+	   		<h3>We are currently working on something awesome. Stay tuned!</h3>
+		   
 			   <p>A moon dog, moondog, or mock moon, (scientific name paraselene, plural paraselenae, meaning "beside the moon") is a relatively rare bright circular spot on a lunar halo caused by the refraction of moonlight by hexagonal-plate-shaped ice crystals in cirrus or cirrostratus clouds.</p>
 
-	   		<!--<h5>Time Left Until Launching</h5>
+	   		<h5>Time Left Until Launching</h5>
 
-	   		<div id="counter" class="cf">
-	   			<span>134 <em>days</em></span> 
- 					<span>12 <em>hours</em></span>
-					<span>50 <em>minutes</em></span>
- 					<span>33 <em>seconds</em></span> 
-   			</div>-->					
+	   		<div id="counter" class="cf"></div>
+			   <script> 
+				var deadline = new Date("Apr 17, 2020 10:00:00").getTime(); 
+				var x = setInterval(function() { 
+				var now = new Date().getTime(); 
+				var t = deadline - now; 
+				var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+				var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+				var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+				var seconds = Math.floor((t % (1000 * 60)) / 1000);
+
+				document.getElementById("counter").innerHTML = 
+				"<span>" + days + "<em>Days</em></span>"  
+				+ "<span>" + hours + "<em>Hours</em></span>"
+				+ "<span>" + minutes + "<em>Minutes</em></span>" 
+				+ "<span>" + seconds + "<em>Seconds</em></span>"; 
+					if (t < 0) { 
+						clearInterval(x); 
+						document.getElementById("demo").innerHTML = "EXPIRED"; 
+					} 
+				}, 1000);
+
+				</script> 					
 
    			<!-- Begin MailChimp Signup Form -->
 	         <!--<div id="mc_embed_signup">
