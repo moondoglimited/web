@@ -7,7 +7,7 @@ anime.timeline({loop: false})
     translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
     easing: "easeOutExpo",
     duration: 700,
-    delay: 1000
+    delay: 0
   }).add({
     targets: '.ml11 .letter',
     opacity: [0,1],
