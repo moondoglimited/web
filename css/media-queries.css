@@ -29,7 +29,9 @@
   	#main h1 { 
   		font: 38px/1.2em 'montserrat-bold', sans-serif; 
   		padding: 0 15%;
-  	}
+	  }
+	  
+	 
 	#main p { font: 16px/30px 'montserrat-regular', sans-serif; }
 
 	/* counter */
@@ -57,7 +59,14 @@
    #main h1 { 
   		font: 35px/1.2em 'montserrat-bold', sans-serif; 
   		padding: 0 8%;
-  	}
+	  }
+	  
+	  #main h3{
+		font: 24px 'montserrat-bold', sans-serif;
+		color: rgb(253, 7, 159);
+		letter-spacing: 1px;	
+	 }
+
   	#main p { 
   		font: 16px/30px 'montserrat-regular', sans-serif;
   		padding: 0 10%; 
@@ -116,7 +125,14 @@
   	#main h1 { 
   		font: 30px/1.2em 'montserrat-bold', sans-serif; 
   		text-align: center;  		
-  	}
+	  }
+	  
+	  #main h3{
+		font: 24px 'montserrat-bold', sans-serif;
+		color: rgb(253, 7, 159);
+		letter-spacing: 1px;	
+	 }
+
   	#main p {	
 		font: 14px/24px 'montserrat-regular', sans-serif;		
 		margin-bottom: 15px;
